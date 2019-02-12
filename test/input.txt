@@ -140,6 +140,17 @@
   delete 1
   list
 
+ ##########################################################
+ # test clear command
+ ##########################################################
+
+   # list should not be in alphabetical order
+   add Adam Brown p/111111 e/adam@gmail.com a/111, alpha street
+   list
+   # list is sorted
+   sort
+   list
+
 ##########################################################
 # test clear command
 ##########################################################
